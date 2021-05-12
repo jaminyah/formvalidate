@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv='cache-control' content='no-cache'>
+        <meta http-equiv='expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'>        
+        <title>Dynamic Validation</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <div class="head">
+                    <h3>Sign Up</h3>
+                </div>
+                <form class="inputs">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" value="" autocomplete="off"/>
+                    <p id="emailError"></p>
+
+                    <label for="pswd">Password</label>
+                    <input id="pswd" name="pswd" value="" />
+                    <p id="pswdError"></p>
+
+                    <label for="cofirm_pswd">Confirm Password</label>
+                    <input id="confirmPswd" name="confirmPswd" value="" />
+                    <p id="confirmPswdError"></p>
+                    
+                    <button id="submit" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <script type="module" src="./script.js"></script>
+    </body>
+</html>
