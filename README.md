@@ -1,4 +1,4 @@
-# formvalidate
+# Form Fields Validate
 
 Improves upon Dynamic Input Validation code outlined in Reference section. Allows for email input field to be validated with use of delete or backspace key.
 
