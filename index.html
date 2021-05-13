@@ -8,6 +8,7 @@
         <meta http-equiv='pragma' content='no-cache'>        
         <title>Dynamic Validation</title>
         <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     </head>
     <body>
         <div class="container">
@@ -24,8 +25,8 @@
                     <input id="pswd" name="pswd" value="" />
                     <p id="pswdError"></p>
 
-                    <label for="cofirm_pswd">Confirm Password</label>
-                    <input id="confirmPswd" name="confirmPswd" value="" />
+                    <label for="confirm_pswd">Confirm Password</label>
+                    <input id="confirmPswd" name="confirmPswd" value="" autocomplete="off" onkeyup="checkPasswordMatch();" />
                     <p id="confirmPswdError"></p>
                     
                     <button id="submit" type="submit">Sign Up</button>
